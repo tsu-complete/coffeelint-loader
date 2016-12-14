@@ -19,7 +19,9 @@
   },
   "homepage": "https://github.com/tsu-complete/coffeelint-loader#readme",
   "dependencies": {
-    "coffeelint": "^1.16.0",
     "webpack-loader": "github:tsu-complete/webpack-loader"
+  },
+  "peerDependencies": {
+    "coffeelint": "^1.16.0"
   }
 }
