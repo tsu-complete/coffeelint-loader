@@ -1,0 +1,25 @@
+{
+  "name": "coffeelint-loader",
+  "version": "0.0.0",
+  "description": "webpack coffeelint loader",
+  "main": "index.coffee",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tsu-complete/coffeelint-loader.git"
+  },
+  "keywords": [
+    "webpack",
+    "coffeelint",
+    "loader"
+  ],
+  "author": "tsukumo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tsu-complete/coffeelint-loader/issues"
+  },
+  "homepage": "https://github.com/tsu-complete/coffeelint-loader#readme",
+  "dependencies": {
+    "coffeelint": "^1.16.0",
+    "webpack-loader": "github:tsu-complete/webpack-loader"
+  }
+}
