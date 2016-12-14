@@ -18,5 +18,5 @@ module.exports = loader "coffeelint", defaults, ( input, options ) ->
     item.line = item.lineNumber
     delete item.lineNumber
   # pass to reporter
-  reporter.call this, data
+  options.reporter.call this, data
 
