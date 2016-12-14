@@ -30,21 +30,3 @@ coffeelint:
     camel_case_classes: level: "error"
 ```
 
-Usage
----
-
-```coffee
-loader = require "webpack-loader"
-
-defaults =
-  config: ".configrc"
-  option1: true
-  option2: false
-
-module.exports = loader defaults, ( input, options ) ->
-  # code here...
-  # --or--
-  new Promise ( accept, reject ) ->
-    # code here...
-```
-
